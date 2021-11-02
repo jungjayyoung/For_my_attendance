@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+
+
+.time-setting{
+
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+label {
+    font-size: 80px;
+}
+
+input{
+    background-color: #ffe7f8;
+    font-size: 50px;
+}
+
+.second{
+    font-size: 70px;
+
+}
+
+.button2{
+    background-color: #facdcd;
+    width: 90%;
+    margin-top: 50px;
+    font-size: 100px;
+    font-weight: bold;
+    transition: background 0.5s ease-in-out;
+}
+
+.button2:hover{
+    background: black;
+    color: white;
+}
+
+.button3{
+    text-align: right;
+}
+
+.button3 button{
+
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 50px;
+}

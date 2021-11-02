@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link th:href="@{/css/check.css}" rel="stylesheet">
+    <title>시간설정</title>
+</head>
+<body>
+<div class="default-board">
+    <div class="button3">
+        <button class="button3 button" type="button" onclick="location.href='/' ">홈으로</button>
+    </div>
+    <div class="time-setting">
+
+        <form action="/setTime" method="get">
+            <label for="time">수업시간: </label>
+            <input type="number" id="time" name="time" placeholder="출석 시간을 입력하세요">
+            <span class="second">&nbsp;초</span>
+            <div class="button">
+                <button class="button2" type="submit">수업 시작</button>
+            </div>
+        </form>
+
+    </div>
+</div>
+</body>
+</html>

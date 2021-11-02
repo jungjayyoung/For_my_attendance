@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link th:href="@{/css/style.css}" rel="stylesheet">
+    <title>출석현황</title>
+</head>
+<body>
+<div class="attendance-panel">
+    <div class=" attendance-headboard">
+
+        <p> 출석부</p>
+
+    </div>
+
+    <div class="attendance-board">
+
+        <table>
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>학번</th>
+                <th>전공</th>
+                <th>이름</th>
+                <th>출석시간</th>
+                <th>출석빈도</th>
+                <th>결과</th>
+                <th>날짜</th>
+                <th>교수님</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="attendanceMember : ${attendanceMembers}">
+                <td th:text="${attendanceMember.id} "></td>
+                <td th:text="${attendanceMember.num}"></td>
+                <td th:text="${attendanceMember.major}"></td>
+                <td th:text="${attendanceMember.name}"></td>
+                <td th:text="|${attendanceMember.time} 초|"></td>
+                <td th:text="|${attendanceMember.frequency} %|"></td>
+                <td class="result-absence" th:if="${attendanceMember.result} == '결석(absence)'"
+                    th:text="${attendanceMember.result}"></td>
+                <td class="result-attend" th:if="${attendanceMember.result} == '출석(attend)'"
+                    th:text="${attendanceMember.result}"></td>
+                <td class="result-escape" th:if="${attendanceMember.result} == '출튀(escape)'"
+                    th:text="${attendanceMember.result}"></td>
+                <td class="result-late" th:if="${attendanceMember.result} == '지각(late)'"
+                    th:text="${attendanceMember.result}"></td>
+                <td th:text="${attendanceMember.day}"></td>
+                <td th:text="${attendanceMember.professor}"></td>
+            </tr>
+            </tbody>
+        </table>
+        <p>
+            <button type="button" class ="button" onclick="location.href='/' ">홈으로</button>
+        </p>
+
+    </div> <!-- /attendance-board -->
+</div>
+</body>
+</html>

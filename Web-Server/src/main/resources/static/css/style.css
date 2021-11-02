@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+
+.attendance-headboard {
+    text-align: center;
+}
+
+p{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 80px;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:60%;
+    margin: auto;
+
+}
+
+
+.attendance-board{
+
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.result-absence{
+    font-weight: bold;
+    color: red;
+}
+
+.result-attend{
+    font-weight: bold;
+    color: blue;
+}
+
+.result-escape{
+    color: forestgreen;
+    font-weight: bold;
+}
+
+.result-late{
+    color:black;
+    font-weight: bold;
+}
+
+.button{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 50px;
+}
+
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+

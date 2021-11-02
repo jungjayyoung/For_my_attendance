@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link th:href="@{/css/home.css}" rel="stylesheet">
+    <title>출석 홈</title>
+</head>
+<body>
+<div class="container">
+    <div>
+        <h1>출석을 부탁해</h1>
+        <p id = "menu">출석 메뉴</p>
+    </div>
+</div> <!-- /container -->
+<div class = "gallerylist">
+    <ul>
+        <li>
+            <a href="/attendanceCheck">
+                <div class="screen">
+                    <div class="top">수업</div>
+                    <div class="bottom">시작</div>
+                    <img src="img/book6.png">
+                </div>
+            </a>
+        </li>
+
+        <li>
+            <a href="/attendanceMembers">
+                <div class="screen">
+                    <div class="top">출석</div>
+                    <div class="bottom">현황</div>
+                    <img src="img/class5.png">
+
+                </div>
+            </a>
+        </li>
+    </ul>
+
+
+
+</div>
+</body>
+</html>
