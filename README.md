@@ -20,6 +20,9 @@
 | :----------------------: | :---------------: | :------------------: |
 | ![Pycharm](https://img.shields.io/badge/Pycharm-v2020.3.5-%233776AB.svg?&style=for-the-badge&logo=Pycharm&logoColor=white) ![Python](https://img.shields.io/badge/Python-v3.8-%233776AB.svg?style=for-the-badge&logo=Python&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-v2.0.2-%233776AB.svg?style=for-the-badge&logo=Flask&logoColor=white) | ![IntellijIDEA](https://img.shields.io/badge/Intellij%20IDEA-%20v2021.2.3-yellowgreen.svg?style=for-the-badge&logo=Intellij%20IDEA&logoColor=white) ![java](https://img.shields.io/badge/java-%20v11-green.svg?style=for-the-badge&logo=java&logoColor=#007396) ![SpringBoot](https://img.shields.io/badge/SpringBoot-%20v2.5.6-green.svg?style=for-the-badge&logo=Spring%20Boot&logoColor=#6DB33F) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white) |  ![MySQL](https://img.shields.io/badge/Mysql-v8.0.26-green?logo=mysql)  ![Google Colab](https://img.shields.io/badge/Google%20Colab-.-green.svg?style=for-the-badge&logo=Google%20Colab&logoColor=#F9AB00)|
 
+## Making Model
+
+추가 예정
 
 ## Demo
 
