@@ -9,7 +9,7 @@
 
 
 ## Team Member
-현주우
+현주우:
 <br>
 김명호: 
 <br>
