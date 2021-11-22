@@ -9,9 +9,12 @@
 
 
 ## Team Member
-현주우<br>
-김명호<br>
-정재영<br>
+현주우
+<br>
+김명호: 
+<br>
+정재영: https://github.com/jungjayyoung
+<br>
 
 
 ## Development Environment
