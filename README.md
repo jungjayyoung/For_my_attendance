@@ -11,7 +11,7 @@
 ## Team Member
 현주우:
 <br>
-김명호: 
+김명호: https://github.com/Myungho96
 <br>
 정재영: https://github.com/jungjayyoung
 <br>
