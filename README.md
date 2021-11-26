@@ -37,11 +37,11 @@
 
 ### 출석 체크 화면
 
-추가예정
+<img src="https://user-images.githubusercontent.com/40835055/143546510-474cc9da-5d0c-453e-9d53-e422d036fca6.gif"  width="600" height="300">
 
 
 ### 출석부 
-<img src="https://user-images.githubusercontent.com/40835055/142767183-191f866f-7167-4ade-9a11-3e323fac6c40.png"  width="600" height="300">
+<img src="https://user-images.githubusercontent.com/40835055/143546420-f0322612-92b3-4afe-9bdd-976616f20290.png"  width="600" height="300">
 
 ## References
 1.Tim Esler's facenet-pytorch repo: https://github.com/timesler/facenet-pytorch
