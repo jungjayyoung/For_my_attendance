@@ -25,7 +25,15 @@
 
 ## Making Model
 
-추가 예정
+[참고한 링크](https://github.com/heorhii-bolotov/facenet#example-notebooks)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BeefMILF/facenet/blob/master/facenet.ipynb)
+
+
+train images
+
+<img src="https://user-images.githubusercontent.com/40835055/143565115-5c0bc2c2-75f4-4660-9132-6d4e1a4b0c51.png" width="50%" height="50%">
+
 
 ## Demo
 
@@ -41,6 +49,17 @@
 
 
 ### 출석부 
+출결여부는 출석빈도(%)로 결정한다. (수업시간 기준)
+
+30% 이하 : 무조건 **결석**
+<br>
+처음 10% 안에 안 찍히고 60% 이상 찍힌 경우: **지각**
+<br>
+30-60% : **출튀**
+<br>
+60% 이상 : **출석**
+<br>
+
 <img src="https://user-images.githubusercontent.com/40835055/143546420-f0322612-92b3-4afe-9bdd-976616f20290.png"  width="600" height="300">
 
 ## References
