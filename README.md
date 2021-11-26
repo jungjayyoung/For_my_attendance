@@ -32,7 +32,7 @@
 
 train images
 
-<img src="https://user-images.githubusercontent.com/40835055/143565115-5c0bc2c2-75f4-4660-9132-6d4e1a4b0c51.png" width="70%" height="70%">
+<img src="https://user-images.githubusercontent.com/40835055/143565115-5c0bc2c2-75f4-4660-9132-6d4e1a4b0c51.png" width="80%" height="80%">
 
 
 ## Demo
