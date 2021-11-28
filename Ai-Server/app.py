@@ -276,7 +276,7 @@ def preprocess_video(detector, face_extractor, clf, path, absence_per, attend_pe
                         anum[idx_] = anum[idx_] + 1
 
                     ## k << 매개변수화할 것
-                    if (framess + 1) / k == late_num:
+                    if (framess + 1) == late_num:
                         print("지각 여부 확인")
                         print("When frame is {} : {}".format(late_num, anum))
                         for j in range(len(anum)):
